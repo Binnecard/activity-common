@@ -27,3 +27,7 @@ These are the parts of the Dice Relay Race activity shell that the quiz spike al
 - Platform launch tickets, signed commands, webhooks, provisioning, and the wallet pool.
 - The Slative design system. Screen layout for the spike stays a plain shared shell.
 - A second shared-activity repository. Quiz depends on this package.
+
+## Landed in 0.1.0
+
+The five items above are the library: `lib/joinCode.js`, `lib/participantName.js`, `lib/activitySession.js`, `lib/createActivityServer.js`, and the browser modules in `client/`. Quiz depends on `@binnecard/activity-common`. Dice Relay Race is not wired to this package.
