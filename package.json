@@ -1,0 +1,16 @@
+{
+  "name": "@binnecard/activity-common",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contains functionality used by more than one activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
